@@ -1,7 +1,3 @@
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Queue;
-
 public class QueueAPIs<T> {
     private T[] elements;
     private int array_size;
@@ -44,7 +40,7 @@ public class QueueAPIs<T> {
             return front_element;
         } }
 
-    public T top() {
+    public T peek() {
         if(isEmpty()){
             System.out.println("The queue is empty");
             return null;
@@ -80,15 +76,16 @@ public class QueueAPIs<T> {
         queueAPIs.enqueue("C");
         queueAPIs.enqueue("Z");
 
-        String top = queueAPIs.top();
+        String top = queueAPIs.peek();
 
         System.out.println(top);
         System.out.println(queueAPIs.size());
         System.out.println(queueAPIs);
 
-        queueAPIs.dequeue();
+        String topItem = queueAPIs.dequeue();
 
         System.out.println(queueAPIs);
+        System.out.println(topItem);
     }
 }
 
