@@ -51,7 +51,7 @@ public class MergeSort {
 
     public static void main(String[] args) {
         MergeSort mergeSort =  new MergeSort();
-        double[] array = {1,6,8,7,3,4,9,2,5};
+        double[] array = {1,6,8,7,3,4,9,2};
 
         double[] merge = mergeSort.mergeSort(array);
         System.out.println(Arrays.toString(merge));
