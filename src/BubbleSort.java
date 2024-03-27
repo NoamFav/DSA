@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
     private double[] bubbleSort(double[] array) {
-        double temp = 0;
+        double temp;
         boolean swapped;
 
         do {
