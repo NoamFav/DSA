@@ -75,6 +75,9 @@ public class QueueAPIs<T> {
         queueAPIs.enqueue("B");
         queueAPIs.enqueue("C");
         queueAPIs.enqueue("Z");
+        queueAPIs.enqueue("E");
+        queueAPIs.enqueue("T");
+        queueAPIs.enqueue("Y");
 
         String top = queueAPIs.peek();
 
