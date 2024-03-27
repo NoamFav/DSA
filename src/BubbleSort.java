@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.LinkedList;
 
 public class BubbleSort {
     private void bubbleSort(double[] array) {
